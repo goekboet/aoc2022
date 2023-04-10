@@ -267,7 +267,7 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/22/bin/Debug/net7.0/22.dll",
-            "args": [ "ex1.txt" ],
+            "args": [ "input.txt" ],
             "cwd": "${workspaceFolder}/22",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
