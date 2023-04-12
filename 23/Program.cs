@@ -136,17 +136,17 @@
 //     Console.WriteLine();
 // }
 
-int Score(List<Elf> elves)
-{
-    var minX = elves.Select(x => x.current.x).Min();
-    var maxX = elves.Select(x => x.current.x).Max();
-    var minY = elves.Select(x => x.current.y).Min();
-    var maxY = elves.Select(x => x.current.y).Max();  
-    var width = (maxX - minX) + 1;
-    var height = (maxY - minY) + 1;
+// int Score(List<Elf> elves)
+// {
+//     var minX = elves.Select(x => x.current.x).Min();
+//     var maxX = elves.Select(x => x.current.x).Max();
+//     var minY = elves.Select(x => x.current.y).Min();
+//     var maxY = elves.Select(x => x.current.y).Max();  
+//     var width = (maxX - minX) + 1;
+//     var height = (maxY - minY) + 1;
 
-    return (width * height) - elves.Count; 
-}
+//     return (width * height) - elves.Count; 
+// }
 
 var input = File.ReadAllLines(args[0]);
 var elves = Parse(input);

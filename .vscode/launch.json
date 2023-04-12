@@ -285,6 +285,17 @@
             "stopAtEntry": false
         },
         {
+            "name": "24",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/24/bin/Debug/net7.0/24.dll",
+            "args": [ "input.txt" ],
+            "cwd": "${workspaceFolder}/24",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
